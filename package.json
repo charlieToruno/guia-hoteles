@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Primer proyecto usando NodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlieToruno/guia-hoteles.git"
+  },
+  "author": "Carlos Toruño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlieToruno/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/charlieToruno/guia-hoteles#readme"
+}
