@@ -7,6 +7,10 @@
 
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!--Mai CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Guia de Hoteles</title>
 </head>
 
@@ -16,7 +20,7 @@
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="d-flex">
             <div class="col-sm-4">
                 <p>
                     <h3>¿Cómo funciona?</h3>
@@ -27,7 +31,7 @@
             <div class="col-sm-4">
                 <p>
                     <h3>¿Dónde puedo reservar?</h3>
-                    <p>Elegí la ciudad que te interese y lueg realizá la reserva con tus datos.</p>
+                    <p>Elegí la ciudad que te interese y luego realiza la reserva con tus datos.</p>
                 </p>
             </div>
 
@@ -41,32 +45,105 @@
 
         <hr>
 
-        <div class="row">
-            <div class="col-3">
-                <h3>Hotel Holiday Inn</h3>
-                <p>Hotel ubicado en el costado suroeste de Managua.</p>
-                <button class="btn">Reservar</button>
+        <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Holiday Inn</h4>
+                    <p>Hotel ubicado en el costado suroeste de Managua.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
             </div>
 
-            <div class="col-3">
-                <h3>Hotel Seminole</h3>
-                <p>Hotel ubicado en el costado sur de Managua.</p>
-                <button class="btn">Reservar</button>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Seminole</h4>
+                    <p>Hotel ubicado en el costado sur de Managua.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
             </div>
 
-            <div class="col-3">
-                <h3>Hotel Crow Plaza</h3>
-                <p>Hotel ubicado en el costado norte de Managua.</p>
-                <button class="btn">Reservar</button>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Crow Plaza</h4>
+                    <p>Hotel ubicado en el costado norte de Managua.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
             </div>
 
-            <div class="col-3">
-                <h3>Hotel Granada</h3>
-                <p>Hotel ubicado en el centro de granada.</p>
-                <button class="btn">Reservar</button>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Granada</h4>
+                    <p>Hotel ubicado en el centro de Granada.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
+            </div>
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Rivas</h4>
+                    <p>Hotel ubicado en el centro de Rivas.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
+            </div>
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Masaya</h4>
+                    <p>Hotel ubicado en el centro de Masaya.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
+            </div>
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Matagalpa</h4>
+                    <p>Hotel ubicado en el centro de Matagalpa.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
             </div>
         </div>
     </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.twitter.com">Twitter</a>
+                <a href="http://www.instagram.com">Instagram</a>
+                <a href="http://www.google-plus.com">Google+</a>
+            </div>
+
+            <div class="col-sm-4">
+                <address>
+                    <h3>Oficina central</h3>
+                    <p>Managua, Nic. km 3.7 carretera norte</p>
+                    <p>+505 8765-4321</p>
+                    <p>contacto@guiahoteles.com</p>
+                </address>
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="#">Nosotros</a>
+                <a href="#">Precios</a>
+                <a href="#">Promociones</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
